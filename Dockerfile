@@ -1,4 +1,4 @@
-FROM alpine
+FROM python:alpine
 LABEL maintainer = "Djordje Stojanovic <djordje.stojanovic@ursus.rs>"
 
 RUN echo > /etc/motd
