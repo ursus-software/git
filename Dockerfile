@@ -14,5 +14,4 @@ RUN mkdir git-shell-commands
 RUN chown -R git:git .
 
 EXPOSE 22
-VOLUME /srv/git
 ENTRYPOINT ["/entrypoint.sh"]
